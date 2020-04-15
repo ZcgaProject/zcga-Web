@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <title>中创国安</title>
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
+<script>
+  fnResize();
+  window.onresize = function () {
+    fnResize();
+  }
+
+  function fnResize() {
+    var deviceWidth = document.documentElement.clientWidth || window.innerWidth;
+    if (deviceWidth >= 750) {
+      deviceWidth = 750;
+    }
+    if (deviceWidth <= 320) {
+      deviceWidth = 320;
+    }
+    document.documentElement.style.fontSize = (deviceWidth / 7.5) + 'px';
+  }
+  // const u = navigator.userAgent;
+  // if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) { //安卓手机
+  //     window.addEventListener('resize', function () {
+  //         // Document 对象的activeElement 属性返回文档中当前获得焦点的元素。
+  //         if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') {
+  //             console.log('安卓触发', document.activeElement.tagName)
+  //             window.setTimeout(function() {
+  //                 document.activeElement.scrollIntoView(true);
+  //             }, 50);
+  //         }
+  //     })
+  // }
+</script>

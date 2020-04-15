@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "uglify": true,
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions", "iOS >= 6.0", "safari >= 7", "not ie <= 8"]
+        },
+        "useBuiltIns": true
+      }
+    ],
+    "stage-2"
+  ],
+  "plugins": ["transform-vue-jsx", "transform-runtime","transform-es2015-modules-commonjs", ["import",{"libraryName":"vant","style":true}]],
+  "env": {
+    "test": {
+      "presets": ["env", "stage-2", "es2015"],
+      "plugins": ["transform-vue-jsx", "transform-es2015-modules-commonjs", "dynamic-import-node"]
+    }
+  }
+}

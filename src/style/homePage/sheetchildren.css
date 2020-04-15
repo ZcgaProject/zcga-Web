@@ -1,0 +1,569 @@
+.bigBoxSheet{
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: aquamarine;*/
+}
+.headBoxSheet{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+}
+.logoSheet{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #e6e6e6;
+}
+.logoSheet_left{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: aquamarine;*/
+}
+.logoSheet_leftlogo{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin-right: 0.3rem;*/
+    /*background-color: #cac9c9;*/
+}
+.logoSheet_leftfont{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.42rem;
+    font-weight: 500;
+    color: #ff0000;
+
+}
+.logoSheet_right{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: darkblue;*/
+}
+.logoSheet_rightLine{
+    width: 2px;
+    height: 58%;
+    background-color: #999999;
+}
+.logoSheet_rightBox{
+    width: 48%;
+    height: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: yellowgreen;*/
+}
+.logoSheet_rightFont{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.2rem;
+    color: #666666;
+}
+/*选择*/
+.choiceSheet{
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: firebrick;
+}
+.choiceSheetBox{
+    padding-top: 0.1rem;
+    width: 94%;
+    height: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: #f1f1f1;*/
+}
+.choiceSheetBig{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: fuchsia;*/
+}
+.choiceSheetBox_one{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.22rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+.choiceSheetBig_img{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.swiperSheet{
+    width: 100%;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+.swiperSheetBox{
+    width: 100%;
+    height: 4rem;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*flex-direction: row;*/
+    background-color: hotpink;
+}
+.swiperBigBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 0px;
+}
+.swiperfontBox{
+    width: 100%;
+    height: 0.6rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.16rem;
+    font-weight: 500;
+    background-color: rgba(0,0,0,0.7);
+}
+/*通知*/
+.noticeSheet{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+.noticeSheetBox{
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.noticeSheetBox_one{
+    width: 90%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /*background-color: #999999;*/
+}
+.noticeSheetBox_two{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.2rem;
+    color: #000000;
+}
+.oneLogo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #f1f1f1;*/
+}
+.oneFont{
+    width: 70%;
+    height: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f4f4f4;
+    box-shadow:0px 0px 10px 3px rgba(133,133,133,0.2) inset;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+.oneFont span{
+    font-size: 0.28rem;
+    font-weight: 500;
+    color: #fb5151;
+}
+.sinceritySheet{
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.sinceritySheetBox{
+    width: 100%;
+    height: 4.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.sinceritySheetBox_one{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: firebrick;*/
+}
+.sinceritySheetBox_two{
+    width: 100%;
+    height: 2.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: greenyellow;*/
+}
+.sinceritySheetBox_fontone{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.34rem;
+    font-weight: bold;
+    color: #ff0033;
+}
+.sinceritySheetBox_fonttwo{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.34rem;
+    font-weight: 500;
+    color: #999999;
+}
+.sinceritySheetBox_twobox{
+    width: 90%;
+    height: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: #e70505;*/
+    border: 1px solid #ffdbdb;
+    box-shadow:0px 4px 8px 3px rgba(255,219,219,0.6);
+}
+.twobox_one{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.twobox_two{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #ffd9e1;
+    /*background-color: goldenrod;*/
+}
+.twobox_two span{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.24rem;
+    color: #666666;
+}
+.querySheet{
+    width: 100%;
+    height: 3.8rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+.querySheetbox{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.querySheetbox_one{
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.querySheetbox_fontone{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.34rem;
+    font-weight: bold;
+    color: #ff0033;
+}
+.querySheetbox_fonttwo{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.34rem;
+    font-weight: 500;
+    color: #999999;
+}
+.querySheetbox_two{
+    width: 90%;
+    height: 2.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    box-shadow:0px 4px 8px 3px rgba(123,123,123,0.2) inset;
+}
+.twoFont{
+    width: 80%;
+    height: 50%;
+    /*background-color: darkblue;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.twoFont span{
+    font-size: 0.24rem;
+    color: #ff0000;
+}
+.twoQuery{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: cadetblue;*/
+}
+.twoQuerybox{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #e70505;*/
+}
+.weixinSheet{
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #e70505;*/
+}
+.weixinSheet_one{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: fuchsia;*/
+}
+.weixinSheet_oneImg{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: antiquewhite;*/
+}
+.weixinSheet_two{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: antiquewhite;*/
+}
+.weixinSheet_twoBox{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: #e70505;*/
+}
+.weixinSheet_thr{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: darkblue;*/
+}
+.hrefSheet{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.hrefSheet_one{
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: aqua;*/
+}
+.hrefSheet_oneFont{
+    font-size: 0.28rem;
+    color: #000;
+    font-weight: bold;
+}
+.hrefSheet_oneBox{
+    margin-left: 0.3rem;
+    width: 45%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    border: 1px solid #e70505;
+}
+.hrefSheet_font{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    /*background-color: #e70505;*/
+}
+.hrefSheet_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+.hrefSheet_two{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.hrefSheet_twoimg{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: red;*/
+}
+.hrefSheet_two span{
+    font-size: 0.28rem;
+    font-weight: 600;
+    color: #ff0000;
+}
+.footerSheet{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #cc3333;
+}
+.footerSheet_img{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /*background-color: floralwhite;*/
+
+}
+.footerSheet_imgbox{
+    width: 40%;
+    height: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+.footerSheet_font{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 0.24rem;
+}
+.footerSheet_kong{
+    width: 100%;
+    height: 10%;
+}
