@@ -236,7 +236,7 @@
             },
             gAnxiny(){
                 console.log(123123123)
-                location.href = 'http://www.cxzgxy.com/#/loadLogin'
+                location.href = 'http://www.xn--vuqz4h8v4cgwj.top/#/loadLogin'
             },
             ziFenzhongxin(){
                 this.$router.push({name: 'Sheetchildren'})

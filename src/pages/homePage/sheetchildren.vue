@@ -20,7 +20,8 @@
                     <img style="width: 55%;height: 70%" src="../../assets/logozc.png" alt="">
                 </div>
                 <div class="logoSheet_leftfont">
-                    <span style="margin-top: 0.3rem;">中创国安</span>
+                    <span style="">中创国安</span>
+                    <span style="">信用评定（北京）中心</span>
                 </div>
             </div>
             <div class="logoSheet_right">
@@ -222,7 +223,7 @@
                 }
             },
             xinyong(){
-                location.href = 'http://www.cxzgxy.com/#/loadLogin'
+                location.href = 'http://www.xn--vuqz4h8v4cgwj.top/#/loadLogin'
             }
         }
     }
