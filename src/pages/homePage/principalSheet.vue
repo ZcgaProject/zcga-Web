@@ -199,7 +199,7 @@
             </div>
             <div class="footerSheet_font">版权所有:中创国安信用管理股份有限公司</div>
             <div class="footerSheet_font">Copyright©2001-2007 BFA All Rights Reserv</div>
-            <div class="footerSheet_font">ICP备案号：琼ICP备19004493号-1  </div>
+            <div class="footerSheet_font" @click="beianhao">ICP备案号：琼ICP备19004493号-1  </div>
             <div class="footerSheet_kong"></div>
         </div>
     </div>
@@ -253,6 +253,9 @@
                     }
 
                 }
+            },
+            beianhao(){
+                location.href = 'http://www.beian.miit.gov.cn/'
             }
         }
     }
