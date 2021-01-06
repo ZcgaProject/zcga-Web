@@ -11,7 +11,7 @@
     "testbuild": "export BUILD_NODE_ENV='development' && node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "html2canvas": "^1.0.0-rc.5",
     "vant": "^2.5.5",
     "videojs-contrib-hls.js": "^3.2.0",
